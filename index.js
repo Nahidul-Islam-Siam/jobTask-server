@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173','https://i-bos-job-task.vercel.app'],  // Update this to your frontend's URL
+  origin: ['http://localhost:5173','https://i-bos-job-task.vercel.app'],  
   methods: ['GET', 'POST'],
 }));
 app.use(express.json());
